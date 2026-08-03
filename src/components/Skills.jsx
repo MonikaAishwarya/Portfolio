@@ -86,10 +86,58 @@ SkillSection.displayName = "SkillSection";
 
 // --- Static Data (No changes needed) ---
 const SKILLS_SECTIONS = [
-    { icon: <Code className="w-6 h-6" />, title: "Programming Languages", tags: ["C", "C++", "Java", "JavaScript", "Python", "HTML", "CSS"] },
-    { icon: <Layers className="w-6 h-6" />, title: "Frameworks & Libraries", tags: ["React", "Tailwind CSS", "SFML", "NumPy", "Pandas"] },
-    { icon: <Terminal className="w-6 h-6" />, title: "Tools & Platforms", tags: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Sublime Text"] },
-    { icon: <Sparkles className="w-6 h-6" />, title: "Interests", tags: ["Competitive Programming", "DSA", "Machine Learning", "Web Development"] },
+  {
+    icon: <Code className="w-6 h-6" />,
+    title: "Programming Languages",
+    tags: [
+      "Python",
+      "Java",
+      "C",
+      "JavaScript",
+      "SQL"
+    ],
+  },
+
+  {
+    icon: <Layers className="w-6 h-6" />,
+    title: "Frontend Development",
+    tags: [
+      "React.js",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Recharts"
+    ],
+  },
+
+  {
+    icon: <Terminal className="w-6 h-6" />,
+    title: "Backend & Databases",
+    tags: [
+      "Flask",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT",
+      "MySQL",
+      "MongoDB",
+      "SQLAlchemy"
+    ],
+  },
+
+  {
+    icon: <Sparkles className="w-6 h-6" />,
+    title: "Machine Learning & Tools",
+    tags: [
+      "Scikit-learn",
+      "NLP",
+      "TF-IDF",
+      "Recommendation Systems",
+      "Git",
+      "GitHub",
+      "VS Code"
+    ],
+  },
 ];
 
 

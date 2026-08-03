@@ -80,12 +80,72 @@ ProjectCard.displayName = "ProjectCard";
 function ProjectsComponent() {
   const projectsData = useMemo(
     () => [
-      { title: "Text File Compressor", desc: "Built a robust, lossless text file compressor in C++ using the LZW algorithm, applying OOP and advanced algorithms. Achieved ~44% file size reduction on real-world files with efficient compression and decompression.", tags: ["C++", "LZW Algorithm", "OOPS"], links: [{ type: "code", href: "https://github.com/shashank2401/file-compressor-in-cpp" }] },
-      { title: "Pathfinding Visualizer", desc: "Interactive C++/SFML visualizer for Dijkstra's and A* algorithms. Features dynamic obstacles, diagonal movement, OOP, and optimized data structures for smooth, real-time animations.", tags: ["C++", "SFML", "Dijkstra's", "A*", "OOPS", "Data Structures"], links: [{ type: "code", href: "https://github.com/shashank2401/pathfinding-visualizer-in-cpp" }] },
-      { title: "Codeforces Visualizer", desc: "A minimal web app to view and compare Codeforces profiles. Shows key stats, rating history, and performance trends with clean visualizations. Built for fast, distraction-free, side-by-side comparisons.", tags: ["React", "Vite", "JavaScript", "Tailwind CSS", "Codeforces API"], links: [{ type: "demo", href: "https://cf-visualizer-rho.vercel.app" }, { type: "code", href: "https://github.com/shashank2401/cf-visualizer" }] },
-      { title: "GitHub Profile Visualizer", desc: "A dynamic app for exploring and comparing GitHub user profiles. Visualizes rich statistics, activity timelines, and repository insights, including a contribution heatmap. Supports side-by-side comparisons and offers both dark and light modes.", tags: ["React", "Vite", "JavaScript", "Tailwind CSS", "GitHub API"], links: [{ type: "demo", href: "https://github-profile-visualizer-six.vercel.app/" }, { type: "code", href: "https://github.com/shashank2401/github-profile-visualizer" }] },
-      { title: "Weather App", desc: "A sleek, responsive weather application delivering real-time weather updates for any city. Features location-based forecasts, intuitive search suggestions, and seamless toggling between Celsius and Fahrenheit.", tags: ["HTML", "CSS", "JavaScript", "Weather API", "Responsive Design"], links: [{ type: "demo", href: "https://weather-app-zeta-three-62.vercel.app/" }, { type: "code", href: "https://github.com/shashank2401/weather-app" }] },
-      { title: "Soil-Water Characteristic Curve Prediction", desc: "Used Artificial Neural Networks (ANNs) to predict SWCC parameters from soil properties for plastic soils. Improved geotechnical prediction for slope stability and foundation design.", tags: ["Python", "TensorFlow", "ANN", "Soil Mechanics", "Data Analysis"], links: [{ type: "code", href: "https://github.com/shashank2401/swcc-prediction-using-ann" }] },
+      {
+        title: "FinTrack - Personal Finance Dashboard",
+        desc: "A full-stack financial management dashboard that helps users track income, expenses, transactions, and visualize spending patterns through interactive analytics.",
+        tags: [
+          "React.js",
+          "Flask",
+          "MySQL",
+          "JWT",
+          "SQLAlchemy",
+          "Recharts"
+        ],
+        links: [
+          {
+            type: "code",
+            href: "YOUR_GITHUB_LINK"
+          },
+          // {
+          //   type: "demo",
+          //   href: "YOUR_DEPLOYMENT_LINK"
+          // }
+        ]
+      },
+
+      {
+        title: "QuizCraft - AI-Powered Quiz Generator",
+        desc: "An AI-powered quiz generation platform that creates customized MCQs and descriptive questions from user-provided content with automated evaluation and performance tracking.",
+        tags: [
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "AI API"
+        ],
+        links: [
+          {
+            type: "code",
+            href: "YOUR_GITHUB_LINK"
+          },
+          // {
+          //   type: "demo",
+          //   href: "YOUR_DEPLOYMENT_LINK"
+          // }
+        ]
+      },
+
+      {
+        title: "Movie Recommendation System",
+        desc: "A machine learning based recommendation engine that provides personalized movie suggestions using content-based and collaborative filtering techniques.",
+        tags: [
+          "Python",
+          "Scikit-learn",
+          "TF-IDF",
+          "Cosine Similarity",
+          "Machine Learning"
+        ],
+        links: [
+          {
+            type: "code",
+            href: "https://github.com/MonikaAishwarya/Movie-Recommendation-System"
+          },
+          {
+            type: "demo",
+            href: "https://hybrid-movie-recommendation-system1.streamlit.app/"
+          }
+        ]
+      }
     ],
     []
   );

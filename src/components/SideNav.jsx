@@ -17,7 +17,7 @@ const navLinks = [
   { to: "/skills", icon: BrainCircuit, text: "Skills" },
   { to: "/academics", icon: GraduationCap, text: "Education" },
   { to: "/projects", icon: FolderKanban, text: "Projects" },
-  { to: "/cp", icon: Swords, text: "CP" },
+  { to: "/cp", icon: Swords, text: "Acheivements" },
   { to: "/contact", icon: Mail, text: "Contact" },
 ];
 

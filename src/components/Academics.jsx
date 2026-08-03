@@ -78,24 +78,24 @@ EducationCard.displayName = "EducationCard";
 // --- Static Data (No changes needed) ---
 const ACADEMICS_DATA = [
   {
-    logo: "/assets/logos/iit_bhu.png",
-    alt: "IIT BHU Logo",
-    title: "Indian Institute of Technology (BHU) Varanasi",
-    link: "https://iitbhu.ac.in/dept/civ",
-    program: "B.Tech in Civil Engineering",
-    year: "2023 – 2027",
+    logo: "/assets/logos/svecw.png",
+    alt: "Shri Vishnu Engineering College for Women Logo",
+    title: "Shri Vishnu Engineering College for Women",
+    link: "https://www.svecw.edu.in/",
+    program: "B.Tech in Computer Science Engineering (AI & DS)",
+    year: "2023 – Present",
     scoreLabel: "CGPA",
-    score: "8.14 / 10",
+    score: "9.38 / 10.0",
   },
   {
-    logo: "/assets/logos/sps_rohini.jpg",
-    alt: "SPS Rohini Logo",
-    title: "Sachdeva Public School, Rohini",
-    link: "https://www.spsrohini.com/",
-    program: "CBSE (Class XII - 2022, Class X - 2020)",
-    year: "2022",
+    logo: "/assets/logos/bvb.png",
+    alt: "Bharatiya Vidya Bhavan Logo",
+    title: "Bharatiya Vidya Bhavan",
+    link: "#",
+    program: "CBSE Senior Secondary Education",
+    year: "2021 – 2023",
     scoreLabel: "Percentage",
-    score: "Class XII - 92.80%, Class X - 97.00%",
+    score: "90%",
   },
 ];
 
@@ -127,9 +127,9 @@ const AcademicsComponent = memo(function Academics() {
                 Education
             </h2>
             <motion.p variants={itemVariants} className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10">
-                My academic journey has been a blend of rigorous learning and practical
-                application, spanning general academics and engineering. Here are the
-                institutions and milestones that have shaped my foundation.
+                My academic journey has helped me build a strong foundation in computer
+                science, artificial intelligence, and software development through academic
+                learning and hands-on projects.
             </motion.p>
         </motion.div>
 

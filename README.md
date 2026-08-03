@@ -1,4 +1,4 @@
-# Personal Portfolio Website - Shashank Raj
+# Personal Portfolio Website -  Vegesna Monika Aishwarya
 
 A clean, modern, and highly performant personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. This template is designed to be easily customizable and showcases a professional, animation-rich user interface.
 
@@ -97,5 +97,4 @@ src/
 ---
 
 ## ✒️ Author
-
-**Shashank Raj**
+**Monika Aishwarya**
